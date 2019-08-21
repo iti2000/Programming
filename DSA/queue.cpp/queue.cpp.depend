@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1562662194 source:c:\iti\college praticals\queue.cpp\main.c
+	<stdio.h>
+	<conio.h>
+
+1562662463 source:f:\programming\dsa\queue.cpp\main.c
+	<stdio.h>
+	<conio.h>
+

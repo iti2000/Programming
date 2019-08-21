@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563720837 source:e:\programming\dsa\try2.cpp\main.cpp
+	<string>
+	<stdlib.h>
+	<stdio.h>
+

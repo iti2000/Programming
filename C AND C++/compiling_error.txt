@@ -1,0 +1,6 @@
+C:\Iti\programming\C AND C++\dynamic memory allocaton.c: In function 'main':
+C:\Iti\programming\C AND C++\dynamic memory allocaton.c:6:5: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+     clrscr();
+     ^
+C:\Users\iti\AppData\Local\Temp\cccTEk6G.o:dynamic memory allocaton.c:(.text+0xe): undefined reference to `clrscr'
+collect2.exe: error: ld returned 1 exit status

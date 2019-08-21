@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563266981 source:e:\programming\dsa\tryinfix.cpp\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+

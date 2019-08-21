@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1563595602 source:e:\programming\dsa\infix_to_postfix.cpp\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+
+1563595759 source:f:\programming\dsa\infix_to_postfix.cpp\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1562494448 source:c:\iti\college praticals\stack.cpp\main.cpp
+	<stdio.h>
+	<conio.h>
+
+1562494448 source:f:\programming\dsa\stack.cpp\main.cpp
+	<stdio.h>
+	<conio.h>
+
