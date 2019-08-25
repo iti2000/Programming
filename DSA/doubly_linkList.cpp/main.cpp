@@ -71,29 +71,50 @@ void display()
 }
 void del()
 {
+    temp = L;
+
     if(L==NULL)
     {
         cout << "Linked list is empty" << endl;
     }
     else
     {
-        cout << "enter the value to be deleted :";
+        cout<<"Enter the number to be deleted :";
         cin >> x;
-        temp = L;
-        while(temp->data!= x)
+        while(temp!=NULL)
         {
+          if(temp->data == x)
+          {
+            if(temp->r==NULL && temp->l==NULL)
+            {
+            delete temp;
+            L == NULL;
+            return;
+            }
+           if(temp->l==NULL )
+           {
             next = temp->r;
-            prev = temp;
-            temp->data = next->data;
-            next = temp;
+            next->l =NULL;
+            L = next;
+            return;
+           }
+           if(temp->r == NULL)
+           {
+            next = temp->l;
+            next->r = NULL;
+            R = next;
+            return;
+           }
+           if(temp->l!=NULL && temp->r!=NULL)
+           {
+            prev=temp->l;
+            prev->r = temp->r;
+            return;
+           }
+          }
+        temp = temp->r;
         }
-        delete temp;
-        next->r = temp;
-        next->l = prev;
-        prev->r = temp;
-        temp->l = prev;
     }
-
 }
 
 
