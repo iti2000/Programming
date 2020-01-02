@@ -1,0 +1,393 @@
+<html>
+<head>
+<title>Blogs</title>
+
+
+<style type="text/css">
+
+
+.sd{
+font-size:20px;
+text-decoration:none;
+color: black;
+}
+
+.row{
+  width: 100%;
+  height:64px;
+  margin-top: -110px;
+  display: inline-block;
+  position:fixed;
+  list-style: none;
+}
+.row a{
+  align: right;
+  padding: 7px;
+color: black;
+  text-decoration: none;
+  font-size: 45%;
+  transition: 0.3s ease;
+}
+.row a:hover{
+  border-bottom:2px solid purple;
+  color: white;
+}
+.main-content-header{
+  width: 1180px;
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.title{
+align:center;
+color: black;
+
+}
+
+
+.link{
+margin-top:-80px;
+margin-left:520px;
+}
+
+body {
+margin:0px;
+}
+
+
+.division{
+font-size:50px;
+padding-top: 110px;
+height:700px;
+padding-bottom: 30px;
+width:100%;
+margin-bottom: 10px;
+background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(intra.jpg);
+background-size:100% 900px;
+background-repeat: no-repeat;
+}
+
+.bc{
+background-image: linear-gradient(#f2f2f2,#ffffff,#f2f2f2);
+text-align:center;
+}
+
+.buttons1{
+background-color: #4CAF50;
+border: none;
+color: black;
+padding: 15px 22px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.buttons1:hover {
+background-color:#4CAF50;
+color: black;
+}
+
+
+
+.allblogs{
+color: black;
+font-weight: 400;
+font-family:flamingo;
+font-size: 18px;
+text-align: center;
+font-weight: 900;
+}
+
+.p1 {
+font-family: sans-serif;
+width: 23.8%;
+float: left;
+height: 380px;
+padding-top: 60px;
+background-size: cover;
+margin: 30px;
+margin-left: 60px;
+border-top: 6px solid #3232CD;
+}
+.lastp1 {
+font-family: sans-serif;
+width: 18.8%;
+float: left;
+height: 380px;
+padding-top: 20px;
+background-size: cover;
+margin: 30px;
+margin-left: 75px;
+border-top: 6px solid #3232CD;
+}
+
+.p2 {
+width: 23.8%;
+float: left;
+font-family: sans-serif;
+border-top: 6px solid #3232CD;
+height: 380px;
+padding-top: 60px;
+background-size: cover;
+margin: 30px;
+margin-left: 120px;
+
+}
+
+.lastp2 {
+width: 18.8%;
+float: left;
+font-family: sans-serif;
+border-top: 6px solid #3232CD;
+height: 380px;
+padding-top: 20px;
+background-size: cover;
+margin: 30px;
+margin-left: 100px;
+}
+.p3 {
+width: 23.8%;
+float: left;
+font-family: sans-serif;
+height: 380px;
+border-top: 6px solid #3232CD;
+padding-top: 60px;
+background-size: cover;
+background-blend-mode: darken;
+margin: 30px;
+margin-left:120px;
+}
+.lastp3 {
+width: 18.8%;
+float: left;
+font-family: sans-serif;
+height: 380px;
+border-top: 6px solid #3232CD;
+padding-top: 20px;
+background-size: cover;
+margin: 30px;
+margin-left:125px;
+}
+
+.p4 {
+  width: 23.8%;
+  float: left;
+  font-family: sans-serif;
+  height: 380px;
+  background-size: cover;
+  margin: 30px;
+  margin-left: 60px;
+}
+
+.p5 {
+width:98.5%;
+float: left;
+text-align: center;
+margin-top: 1500px;
+font-weight: 400;
+line-height: 35px;
+font-family: sans-serif;
+height: 500px;
+background-size: cover;
+margin: 5px;
+border:3px solid  #505050;
+background-color: lightgrey;
+
+}
+
+.p6 {
+width:98.5%;
+font-family: sans-serif;
+float: left;
+height: 700px;
+font-weight: 400;
+line-height: 45px;
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(intranet1.jpg);
+background-size: 100% 600px;
+margin: 10px;
+text-align: center;
+}
+
+
+.pnew1{
+  position: absolute;
+  width:50%;
+  height:250px;
+  left:0%;
+  top:0%;
+  font-size: 30px;
+  line-height: 40px;
+  color:black;
+  background-color: lightgrey;
+}
+.pnew2{
+  position: absolute;
+  width:50%;
+  height:250px;
+  left:50%;
+  top:0%;
+  line-height: 40px;
+  font-size: 30px;
+  color:black;
+  background-color: lightgrey;
+}
+.newp{
+  position: relative;
+  width:100%;
+  height:500px;
+  margin-top:30px;
+  font-family: sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="division">
+
+          <div class="row" id="nav">
+
+              <a href="#">COMPANY</a>
+              <a href="#">EXPERTISE </a>
+              <a href="#">SERVICES </a>
+              <a href="#">PORTFOLIO </a>
+              <a href="#">BLOG </a>
+              <a href="contact.html">CONTACT US </a>
+
+            <a href="#"class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+          </div>
+
+
+
+<div="title">
+<font color="black"><h3 align=center>INTRANET DEVELOPMENT</h3> <br><p style="font-size:80%;" align=center>We develop and implement corporate portals that connect employees, facilitate enterprise collaboration and boost team productivity.</p>
+</div>
+
+	<div class="bc">
+    <h1 style="font-size:270%;">WE DELIVER EMPLOYEE-CENTRIC INTRANETS</h1>
+    <br>
+    <p style="font-size:200%;" align=center>We help enterprises build an effective organization-wide collaboration channel where internal communication and team networking flow. We can kickstart intranet development with your sketchy idea of an employee portal that we will turn into a ready-to-use solution.</p>
+    </div>
+
+<div class="allblogs">
+
+		<div class="p1">
+		    <div class="in4"><h2 style="text-align:center">DESIGN & DEVELOPMENT</h2>
+        <p style="font-size:110%;" align=center>We create on-premises, cloud and hybrid portals packed with optimal features for individual and collaborative work. Our intranets are easily scalable and device-agnostic.</p>
+       </div>
+     </div>
+
+
+    <div class="p2">
+	     <div class="in4"><h2 style="text-align: center">DEPLOYMENT & TUNING</h2>
+       <p style="font-size:110%;" align=center>We implement corporate intranets in your environment and customize them in line with your business needs, organizational structure, and communication workflows.</p>
+</div>
+    </div>
+
+
+  	<div class="p3">
+		    <div class="in4"><h2 style="text-align: center">INTEGRATION & SUPPORT</h2>
+        <p style="font-size:110%;" align=center>We integrate intranets with enterprise systems to ensure business introperability, as well as provide support to ensure intranets perform steadily and are in active use.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  	<div class="p5">
+
+      <p style="font-size:300%;" align=center>EMPLOYEE INTRANET WITH MULTIVECTOR BENEFITS</p>
+
+      <p style="font-size:150%;">  provides intranet design and development to help enterprises improve numerous aspects of their workflow, content and collaboration management.</p>
+
+
+<div class="newp">
+      <div class="pnew1">
+        <ul>
+          <li>Barrier-free connection across locations and time zones</li>
+          <li>Easier content discovery and reuse</li>
+          <li>Manageable information exchange</li>
+          <li>Faster implanting of organizational culture</li>
+        </ul>
+      </div>
+
+
+      <div class="pnew2">
+        <ul>
+          <li>Well-organized business processes</li>
+          <li>Reduced time waste on unnecessary emails, meetings, and paperwork</li>
+          <li>Improved productivity at personal and team levels</li>
+          <li>Transparent professional growth and recognition</li>
+        </ul>
+
+  </div>
+
+</div>
+</div>
+
+
+    <div class="p6">
+
+  <div class="title">
+    <h1 style="font-size: 250%;" align=center>REVITALIZING YOUR INTRANET</h1>
+  </div>
+
+          <div class="lastp1">
+            <h1>Intranet Consulting</h1>
+
+          <div class="in4">
+            <p style="font-size:110%;" align=center>We assist enterprises in shaping the optimal approach to their employee portal development, customization, and use. We elaborate on the proper strategies for future intranets and reveal pain points in existing solutions to fix them.</p>
+          </div>
+        </div>
+
+          <div class="lastp2">
+            <h1>Intranet Testing</h1>
+
+            <div class="in4">
+            <p style="font-size:110%;" align=center>End-to-end intranet testing allows us to detect performance, integration and security deviations that might affect your portal operation and hinder user experience. As part of this service, we deliver a detailed report of the detected issues and recommended solutions to them.</p>
+            </div>
+        </div>
+
+          <div class="lastp3">
+            <h1>Intranet Migration</h1>
+
+          <div class="in4">
+            <p style="font-size:110%;" align=center>Whether you want to change your intranet environment or upgrade your intranet platform to a higher version, we are ready to handle these tasks. We also optimize migrated solutions to improve their performance and make them easier to use and support.</p>
+          </div>
+        </div>
+
+
+
+</div>
+
+
+
+    	  <script type="text/javascript">
+
+       	 var  nav = document.getElementById('nav');
+
+          window.onscroll = function(){
+
+          	if (window.pageYOffset >100) {
+    			nav.style.color = "white";
+          		nav.style.background = "white";
+          		nav.style.boxShadow = "0px 2px 2px grey";
+          	}
+          	else{
+          		nav.style.background = "transparent";
+          		nav.style.boxShadow = "none";
+          	}
+          }
+
+
+
+       </script>
+
+</body>
+</html>
