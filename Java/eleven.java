@@ -27,6 +27,15 @@ class eleven{
   public static void main(String[] args) {
     A a = new A();
 
+    //Accessed Direcctly
+    System.out.println(a.a);
+    System.out.println(a.b);
+    System.out.println(a.c);
 
+    //Accessing all with methods
+    System.out.println(a.get_private_a());
+    System.out.println(a.getb());
+    System.out.println(a.getc());
+    System.out.println(a.getd());
   }
 }
