@@ -18,9 +18,7 @@ class nine{
 
     Scanner scan = new Scanner(System.in);
     final int x = scan.nextInt();
-
-    long ans = fac(x);
-    System.out.println(ans);
+    System.out.println(fac(x));
 
   }
 }
